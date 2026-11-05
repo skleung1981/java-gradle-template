@@ -2,6 +2,8 @@
 pipeline {
     agent any
 
+    //Due to the permissions, environment variable ('GRADLE_USER_HOME') is set as /var/jenkins_home/.gradle
+
     stages {
         stage('Build') {
             steps {
