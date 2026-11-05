@@ -1,5 +1,5 @@
 //Please rename the file to Jenkinsfile in order to run it in the Jenkins
-pipleline {
+pipeline {
     agent any
 
     stages {
